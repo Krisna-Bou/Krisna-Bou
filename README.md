@@ -1,4 +1,4 @@
-# Hi, I'm Krisna Bou 👋
+# Hi, I'm Krisna 👋
 
 **Software Engineer** | Associate Technical Consultant at Quorum Software
 
