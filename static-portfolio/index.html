@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon-48x48.png" sizes="48x48">
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/images/favicon.png" sizes="256x256">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <!-- Title & meta -->
+    <title>Krisna Adam Bou | Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Krisna Adam Bou - Software Engineering (Honours) graduate from UQ. I build scalable full-stack web apps and enterprise SaaS solutions, with a focus on backend development, SQL, and cloud services.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Krisna Adam Bou | Portfolio">
+    <meta property="og:description" content="Software Engineering (Honours) graduate from UQ, building scalable full-stack web apps and enterprise SaaS solutions.">
+    <meta property="og:image" content="https://krisnabou.com/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:url" content="https://krisnabou.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Krisna Adam Bou | Portfolio">
+    <meta name="twitter:description" content="Software Engineering (Honours) graduate from UQ, building scalable full-stack web apps and enterprise SaaS solutions.">
+    <meta name="twitter:image" content="https://krisnabou.com/images/og-image.png">
+
+    <!-- Schema -->
+    <script type="application/ld+json">
+    [{
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Krisna Adam Bou | Portfolio",
+      "url": "https://krisnabou.com",
+      "description": "Software Engineering (Honours) graduate from UQ, building scalable full-stack web apps and enterprise SaaS solutions."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Krisna Adam Bou",
+      "alternateName": "Krisna Bou",
+      "url": "https://krisnabou.com",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://krisnabou.com/images/og-image.png",
+        "width": 1200,
+        "height": 630
+      },
+      "jobTitle": "Associate Technical Consultant",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Quorum Software"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "The University of Queensland"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/krisna-bou/",
+        "https://github.com/Krisna-Bou"
+      ]
+    }]
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div id="masthead">
+      <div class="masthead-split">
+        <h3 class="masthead-brand masthead-nav"><a href="#">Krisna Bou<span class="brand-suffix"> | Portfolio</span></a></h3>
+        <nav>
+          <ul class="nav masthead-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="head-links">
+          <a href="https://www.linkedin.com/in/krisna-bou/"><img class="head-logo" src="images/linkedin.png" width="512" height="512" alt="Krisna Bou on LinkedIn"></a>
+          <a href="https://github.com/Krisna-Bou"><img class="head-logo" src="images/github.png" width="512" height="512" alt="Krisna Bou on GitHub"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner" id="vanta-canvas">
+        <div class="cover-container">
+          <div class="cover">
+            <div>
+              <div class="grad"></div>
+              <div class="line"></div>
+            </div>
+            <div class="inner">
+              <h1 class="cover-heading cover-heading-title">Hi, I'm <span style="color: var(--highlight)">Krisna.</span></h1>
+              <h2 class="lead">Tech enthusiast, and avid learner.</h2>
+            </div>
+          </div>
+        </div>
+        <div class="scroll">
+          <div id="scroll-down">
+            <span class="arrow-down"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="site-wrapper-bio">
+      <div class="cover-container">
+        <div class="cover" id="about">
+          <div>
+            <div class="grad"></div>
+            <div class="line"></div>
+          </div>
+          <div class="inner">
+            <div class="section-label">// 01 - about</div>
+            <h1 class="cover-heading">Who am I?</h1>
+            <p>Hi, I'm <span style="color: var(--brand); font-weight: 700;">Krisna Bou</span>, a skilled software developer with experience in various programming languages, frameworks and technology. I am a recent graduate at<span style="color: var(--brand); font-weight: 700;"> the University of Queensland</span>, who is focussed on finding new opportunities that allow me to apply my passion for <span style="color: var(--brand); font-weight: 700;">backend systems</span>, <span style="color: var(--brand); font-weight: 700;">cloud services</span>, and <span style="color: var(--brand); font-weight: 700;">full-stack development</span>.<br><br> I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems.</p>
+          </div>
+        </div>
+
+        <div class="stats-band">
+          <div class="stat">
+            <div class="stat-num" data-target="3" data-suffix="+">0</div>
+            <div class="stat-label">Years coding</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-target="6">0</div>
+            <div class="stat-label">Projects shipped</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-target="9">0</div>
+            <div class="stat-label">Technologies</div>
+          </div>
+        </div>
+
+        <div class="tech-stack">
+          <div class="tech-group">
+            <h4 class="tech-group-title">// languages</h4>
+            <div class="tech-chips">
+              <span class="tech-chip"><img src="images/python.png" width="512" height="512" alt="Python"><span>Python</span></span>
+              <span class="tech-chip"><img src="images/java.png" width="512" height="512" alt="Java"><span>Java</span></span>
+              <span class="tech-chip"><img src="images/java-script.png" width="512" height="512" alt="JavaScript"><span>JavaScript</span></span>
+              <span class="tech-chip"><img src="images/web.png" width="512" height="512" alt="PHP"><span>PHP</span></span>
+              <span class="tech-chip"><img src="images/html.png" width="512" height="512" alt="HTML"><span>HTML</span></span>
+              <span class="tech-chip"><img src="images/css-3.png" width="512" height="512" alt="CSS"><span>CSS</span></span>
+            </div>
+          </div>
+          <div class="tech-group">
+            <h4 class="tech-group-title">// cloud &amp; devops</h4>
+            <div class="tech-chips">
+              <span class="tech-chip"><img src="images/web (1).png" width="512" height="512" alt="AWS"><span>AWS</span></span>
+              <span class="tech-chip"><img src="images/docker.png" width="512" height="512" alt="Docker"><span>Docker</span></span>
+            </div>
+          </div>
+          <div class="tech-group">
+            <h4 class="tech-group-title">// databases</h4>
+            <div class="tech-chips">
+              <span class="tech-chip"><img src="images/mysql.png" width="512" height="512" alt="MySQL"><span>MySQL</span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-education" id="education">
+          <h4 class="about-subhead">// education</h4>
+          <div class="education-card">
+            <div class="education-lead">
+              <img class="exp-logo" src="images/uq.jpg" width="200" height="200" alt="The University of Queensland">
+              <div class="education-main">
+                <h2>The University of Queensland</h2>
+                <h4>Bachelor of Engineering (Honours), Major in Software Engineering</h4>
+              </div>
+            </div>
+            <div class="education-meta">
+              <span class="education-date">Dec 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="site-wrapper-bio" id="experience">
+      <div class="cover-container">
+        <div class="section-label">// 02 - experience</div>
+        <h1 class="cover-heading-title cover-heading">Experience.</h1>
+        <div id="timeline">
+          <br>
+          <div class="line line-item"></div>
+
+          <div class="timeline-item">
+            <div class="timeline-column">
+              <div class="experience-left experience">
+                <div class="exp-head">
+                  <img class="exp-logo" src="images/quorum.jpg" width="200" height="200" alt="Quorum Software">
+                  <div class="exp-titles">
+                    <h2>Associate Technical Consultant</h2>
+                    <h4>Quorum Software</h4>
+                  </div>
+                </div>
+                <ul>
+                  <li>Delivered technical consulting services for Energy Components (EC) implementations across oil and gas clients.</li>
+                  <li>Collaborated with stakeholders to gather requirements and translate them into system configurations.</li>
+                  <li>Supported end-to-end deployment and validation of client solutions to ensure quality and compliance.</li>
+                </ul>
+                <div class="tag">
+                  <p class="software">Energy Components</p>
+                  <p class="language">SQL</p>
+                  <p class="software">Enterprise SaaS</p>
+                  <p class="framework">Requirements Analysis</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-centre">
+              <div id="timeline-line">
+                <div class="grad grad-item"></div>
+              </div>
+            </div>
+            <div class="timeline-column">
+              <div class="experience-right date">
+                <h3>Jun 2026 - Present</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-column">
+              <div class="experience-left date">
+                <h3>Jul 2025 - Jun 2026 &nbsp;&#x2022;&nbsp; 1 yr</h3>
+              </div>
+            </div>
+            <div class="timeline-centre">
+              <div id="timeline-line">
+                <div class="grad grad-item"></div>
+              </div>
+            </div>
+            <div class="timeline-column">
+              <div class="experience-right experience">
+                <div class="exp-head">
+                  <img class="exp-logo" src="images/quorum.jpg" width="200" height="200" alt="Quorum Software">
+                  <div class="exp-titles">
+                    <h2>Technology Intern</h2>
+                    <h4>Quorum Software</h4>
+                  </div>
+                </div>
+                <ul>
+                  <li>Contributed to projects delivering Energy Components (EC) as a service for major oil and gas clients.</li>
+                  <li>Assisted in customizing EC screens and functions to meet client-specific requirements.</li>
+                  <li>Performed system testing and validation of new configurations to ensure quality and compliance with project specifications.</li>
+                  <li>Executed and reviewed SQL database changes to support customization and maintain data integrity.</li>
+                </ul>
+                <div class="tag">
+                  <p class="software">Energy Components</p>
+                  <p class="language">SQL</p>
+                  <p class="software">System Testing</p>
+                  <p class="framework">QA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-column">
+              <div class="experience-left experience">
+                <div class="exp-head">
+                  <img class="exp-logo" src="images/uq.jpg" width="200" height="200" alt="UQ Pro Bono Centre">
+                  <div class="exp-titles">
+                    <h2>Database Developer</h2>
+                    <h4>UQ Pro Bono Centre</h4>
+                  </div>
+                </div>
+                <ul>
+                  <li>Developed and maintained an online database for QAI and UQ Pro Bono members to input records into.</li>
+                  <li>Enabled public access to summarized NDIS Appeals cases, facilitating comprehensive analysis of national trends and jurisdictional comparisons.</li>
+                  <li>Conducted user elicitation to determine needs and requirements for designed features.</li>
+                </ul>
+                <div class="tag">
+                  <p class="language">MySQL</p>
+                  <p class="language">PHP</p>
+                  <p class="framework">CodeIgniter</p>
+                  <p class="software">Database Design</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-centre">
+              <div id="timeline-line">
+                <div class="grad grad-item"></div>
+              </div>
+            </div>
+            <div class="timeline-column">
+              <div class="experience-right date">
+                <h3>Apr 2024 - Mar 2026 &nbsp;&#x2022;&nbsp; 2 yrs</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-column">
+              <div class="experience-left date">
+                <h3>Nov 2023 - Dec 2023 &nbsp;&#x2022;&nbsp; 2 mos</h3>
+              </div>
+            </div>
+            <div class="timeline-centre">
+              <div id="timeline-line">
+                <div class="grad grad-item"></div>
+              </div>
+            </div>
+            <div class="timeline-column">
+              <div class="experience-right experience">
+                <div class="exp-head">
+                  <img class="exp-logo" src="images/nfq.jpg" width="200" height="200" alt="NFQ Asia">
+                  <div class="exp-titles">
+                    <h2>Technology Intern</h2>
+                    <h4>NFQ Asia</h4>
+                  </div>
+                </div>
+                <ul>
+                  <li>Implemented Google Apps Script and interfaced with a variety of APIs to automate a weekly survey conducted by the company for its Asia branches: Vietnam, Thailand, Singapore.</li>
+                  <li>Reduced processing times by 50% in the automation of processing of raw survey results and report.</li>
+                  <li>Modularized the project to effectively divide tasks among peers, facilitating a smoother learning process for each section.</li>
+                </ul>
+                <div class="tag">
+                  <p class="language">JavaScript</p>
+                  <p class="framework">Google Apps Script</p>
+                  <p class="framework">REST APIs</p>
+                  <p class="software">Automation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-column">
+              <div class="experience-left experience">
+                <div class="exp-head">
+                  <img class="exp-logo" src="images/uq.jpg" width="200" height="200" alt="The University of Queensland">
+                  <div class="exp-titles">
+                    <h2>Student Staff Partner</h2>
+                    <h4>The University of Queensland</h4>
+                  </div>
+                </div>
+                <ul>
+                  <li>Researched and analysed the faculty students' experiences throughout their studies through interviews, focus groups, and surveys.</li>
+                  <li>Developed an understanding of what the EAIT student experience currently lacked and investigated ways to improve student belongingness.</li>
+                  <li>Presented an action plan for staff members to understand issues within the cohort and act upon, such as redesign of yearly events and advertising.</li>
+                </ul>
+                <div class="tag">
+                  <p class="software">UX Research</p>
+                  <p class="framework">Surveys</p>
+                  <p class="software">Stakeholder Analysis</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-centre">
+              <div id="timeline-line">
+                <div class="grad grad-item"></div>
+              </div>
+            </div>
+            <div class="timeline-column">
+              <div class="experience-right date">
+                <h3>Jun 2023 - Dec 2023 &nbsp;&#x2022;&nbsp; 6 mos</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Volunteering -->
+    <div class="site-wrapper-bio">
+      <div class="cover-container">
+        <div class="cover" id="volunteering">
+          <div>
+            <div class="grad"></div>
+            <div class="line line-volunteering"></div>
+          </div>
+          <div class="inner projects">
+            <div class="section-label">// 03 - volunteering</div>
+            <h1 class="cover-heading">Volunteering.</h1>
+            <p>In addition to my technical experience, I am committed to giving back to my communities through active engagement and volunteer work.</p>
+          </div>
+        </div>
+        <div class="container-volunteering">
+          <div class="volunteering">
+            <div class="volunteering-split">
+              <div class="volunteering-logo-container">
+                <h2>Street Groove Dance Society</h2>
+                <img src="images/SG-Logo.png" width="5001" height="4407" class="logo" alt="Street Groove Dance Society">
+              </div>
+              <div class="volunteering-date">
+                <h4>Marketing Executive</h4>
+                <h4>Nov 2024 - Nov 2025</h4>
+              </div>
+              <div class="volunteering-date">
+                <h4>Class Manager</h4>
+                <h4>Jul 2023 - Nov 2024</h4>
+              </div>
+              <ul>
+                <li>Developed schedules, selected dance styles, and handled overall class management for members.</li>
+                <li>Managed contracts for teachers and Studios, ensuring smooth day-to-day operations.</li>
+                <li>Planned and executed special events to enhance member engagement and community building.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="volunteering">
+            <div class="volunteering-split">
+              <div class="volunteering-logo-container">
+                <h2>Brisbane-Asian Student Association</h2>
+                <img src="images/BSA-Logo.png" width="1151" height="1151" class="logo" alt="Brisbane-Asian Student Association">
+              </div>
+              <div class="volunteering-date">
+                <h4>Events Committee Member</h4>
+                <h4>Jan 2024 - Nov 2024</h4>
+              </div>
+              <ul>
+                <li>Oversaw all aspects of event management, including logistics, scheduling, and coordination with vendors and participants.</li>
+                <li>Focused on delivering memorable and enjoyable experiences that fostered community engagement and member satisfaction.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="volunteering">
+            <div class="volunteering-split">
+              <div class="volunteering-logo-container">
+                <h2>UQ Faculty of Engineering, Architecture and Information Technology</h2>
+                <img class="exp-logo" src="images/uq.jpg" width="200" height="200" alt="UQ Faculty of Engineering, Architecture and Information Technology">
+              </div>
+              <div class="volunteering-date">
+                <h4>Get Set Mentor</h4>
+                <h4>Jul 2023 - Nov 2023</h4>
+              </div>
+              <ul>
+                <li>Mentored incoming Engineering students through structured weekly sessions, guiding them through university life.</li>
+                <li>Orchestrated campus events to help new students adjust and connect with their peers.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="site-wrapper-projects" id="projects">
+      <div class="container-projects">
+        <div class="cover cover-projects">
+          <div>
+            <div class="grad"></div>
+            <div class="line projects-line"></div>
+          </div>
+          <div class="inner projects">
+            <div class="section-label">// 04 - projects</div>
+            <h1 class="cover-heading">Projects.</h1>
+            <p>In my spare time, I work on coding projects to sharpen my skills, from personal passion projects to real-world applications. This helps me explore new technologies and build practical solutions.</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <a href="https://ndis.project.uq.edu.au/" class="project-link"><img class="project-laptop" src="images/laptop.png" width="1289" height="851" alt="NDIS Appeals Database"></a>
+          <div class="project-info">
+            <a href="https://ndis.project.uq.edu.au/" class="title-link"><h3>NDIS Appeals Database</h3></a>
+            <p>The NDIS Appeals Database is a pro bono project created for the Queensland Advocacy for Inclusion in 2014. The project aims to collect data from NDIS Appeals cases from 2014 to current. The database allows for a comprehensive analysis of the outcome of NDIS appeals to the Administrative Review Tribunal. Applicants will be able to investigate the outcomes of successful appeals and the reasoning behind appeals that were unsuccessful.</p>
+            <div class="tag">
+              <p class="framework">CodeIgniter</p>
+              <p class="software">Front-End Development</p>
+              <p class="software">UX/UI Design</p>
+              <p class="language">PHP</p>
+              <p class="language">HTML</p>
+              <p class="language">CSS</p>
+            </div>
+            <div class="project-actions">
+              <a class="proj-btn proj-btn-live" href="https://ndis.project.uq.edu.au/" target="_blank" rel="noopener">&#8599; Live</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="border">
+          <div class="border-line"></div>
+          <div class="border-dot">.</div>
+          <div class="border-line"></div>
+        </div>
+
+        <div class="project project-sub">
+          <div class="project-info">
+            <a href="https://www.sleeplessviolin.com/" class="title-link"><h3>Sleepless Violin</h3></a>
+            <p>Developed an online portfolio for a client to showcase their skills, performances, and experience in the classical music industry. The portfolio featured a polished, minimalist aesthetic aligned with the client's vision, highlighting their artistry through a seamless user experience.</p>
+            <div class="tag">
+              <p class="language">CSS</p>
+              <p class="software">Front-End Development</p>
+              <p class="framework">Freelance</p>
+              <p class="language">HTML</p>
+            </div>
+            <div class="project-actions">
+              <a class="proj-btn proj-btn-code" href="https://github.com/Krisna-Bou/Sleepless-Violin" target="_blank" rel="noopener">&lt;/&gt; Code</a>
+              <a class="proj-btn proj-btn-live" href="https://www.sleeplessviolin.com/" target="_blank" rel="noopener">&#8599; Live</a>
+            </div>
+          </div>
+          <a href="https://www.sleeplessviolin.com/" class="project-link"><img class="project-img" src="images/SleeplessViolin.PNG" width="1420" height="827" alt="Sleepless Violin"></a>
+        </div>
+
+        <div class="border">
+          <div class="border-line"></div>
+          <div class="border-dot">.</div>
+          <div class="border-line"></div>
+        </div>
+
+        <div class="project project-sub">
+          <div class="project-info">
+            <a href="https://reit4841-krisna-bou.uqcloud.net/Project-Display/" class="title-link"><h3>Project Display System</h3></a>
+            <p>Honours thesis project, designing and implementing a project display and resource management system for UQ. Deployed to UQCloud, the app is to display the various projects within the School of Electrical Engineering and Computer Science.</p>
+            <div class="tag">
+              <p class="language">PHP</p>
+              <p class="software">Front-End Development</p>
+              <p class="software">UX/UI Design</p>
+              <p class="language">CSS</p>
+              <p class="framework">CodeIgniter</p>
+              <p class="framework">Thesis Project</p>
+              <p class="language">HTML</p>
+            </div>
+            <div class="project-actions">
+              <a class="proj-btn proj-btn-code" href="https://github.com/Krisna-Bou/Project-Display-System" target="_blank" rel="noopener">&lt;/&gt; Code</a>
+              <a class="proj-btn proj-btn-live" href="https://reit4841-krisna-bou.uqcloud.net/Project-Display/" target="_blank" rel="noopener">&#8599; Live</a>
+            </div>
+          </div>
+          <a href="https://reit4841-krisna-bou.uqcloud.net/Project-Display/" class="project-link"><img class="project-img" src="images/Project-Display.PNG" width="1449" height="830" alt="Project Display System"></a>
+        </div>
+
+        <div class="border">
+          <div class="border-line"></div>
+          <div class="border-dot">.</div>
+          <div class="border-line"></div>
+        </div>
+
+        <div class="project project-sub">
+          <div class="project-info">
+            <a href="https://krisna-bou.github.io/Baiae_Imperiali/" class="title-link"><h3>Baiae Imperiali</h3></a>
+            <p>Web application centered around an ancient Roman resort, offering a comprehensive booking system for diverse restaurants and hotels. Additionally, it provides informative content on the history and culture of the Roman civilisation.</p>
+            <div class="tag">
+              <p class="language">CSS</p>
+              <p class="software">Front-End Development</p>
+              <p class="language">HTML</p>
+            </div>
+            <div class="project-actions">
+              <a class="proj-btn proj-btn-code" href="https://github.com/Krisna-Bou/Baiae_Imperiali" target="_blank" rel="noopener">&lt;/&gt; Code</a>
+              <a class="proj-btn proj-btn-live" href="https://krisna-bou.github.io/Baiae_Imperiali/" target="_blank" rel="noopener">&#8599; Live</a>
+            </div>
+          </div>
+          <a href="https://krisna-bou.github.io/Baiae_Imperiali/" class="project-link"><img class="project-img" src="images/Baiae.PNG" width="1449" height="826" alt="Baiae Imperiali"></a>
+        </div>
+
+        <div class="border">
+          <div class="border-line"></div>
+          <div class="border-dot">.</div>
+          <div class="border-line"></div>
+        </div>
+
+        <div class="project project-sub project-pair">
+          <div class="project-info">
+            <a href="https://github.com/Krisna-Bou/Pigeon-E2EE-Messenger" class="title-link"><h3>Pigeon E2EE Messenger</h3></a>
+            <p>Pigeon is a secure E2EE instant messaging application. It consists of a client and server subsystem, found in pigeon-client and pigeon-server respectively.</p>
+            <div class="tag">
+              <p class="language">Python</p>
+              <p class="software">Software Architecture</p>
+              <p class="software">AWS</p>
+              <p class="framework">HTTP</p>
+              <p class="framework">Docker</p>
+            </div>
+            <div class="project-actions">
+              <a class="proj-btn proj-btn-code" href="https://github.com/Krisna-Bou/Pigeon-E2EE-Messenger" target="_blank" rel="noopener">&lt;/&gt; Code</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <a href="https://github.com/Krisna-Bou/SpamOverflow" class="title-link"><h3>Spam Overflow</h3></a>
+            <p>An AWS hosted application for detecting spam emails within a system. Assessing AWS metrics to determine anomalies and unusual behavior.</p>
+            <div class="tag">
+              <p class="software">Terraform</p>
+              <p class="framework">REST APIs</p>
+              <p class="language">EC2</p>
+              <p class="software">Software Architecture</p>
+              <p class="software">AWS</p>
+              <p class="language">ECS</p>
+              <p class="framework">Docker</p>
+            </div>
+            <div class="project-actions">
+              <a class="proj-btn proj-btn-code" href="https://github.com/Krisna-Bou/SpamOverflow" target="_blank" rel="noopener">&lt;/&gt; Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact-canvas">
+      <div class="contact-item">
+        <div class="contact-centre">
+          <div class="section-label">// 05 - contact</div>
+          <h1 class="cover-heading" id="contact">Contact.</h1>
+          <form id="contact-form">
+            <p>Your Name</p>
+            <input type="text" name="name" required placeholder="What's your name?">
+            <p>Your email</p>
+            <input type="email" name="email" required placeholder="How do I contact you?">
+            <p>Your Message</p>
+            <textarea name="message" required placeholder="Send me a message!"></textarea>
+            <br>
+            <button class="ticket-link" type="submit">Submit</button>
+            <br>
+            <div id="form-status"></div>
+          </form>
+          <div class="logos">
+            <a class="link-logo" href="https://www.linkedin.com/in/krisna-bou/"><img class="logo" src="images/linkedin.png" width="512" height="512" alt="Krisna Bou on LinkedIn"></a>
+            <a class="link-logo" href="https://github.com/Krisna-Bou"><img class="logo" src="images/github.png" width="512" height="512" alt="Krisna Bou on GitHub"></a>
+            <a class="link-logo" href="mailto:krisna.bou@outlook.com"><img class="logo" src="images/mail.png" width="512" height="512" alt="Email"></a>
+          </div>
+        </div>
+        <div class="contact-image">
+          <img src="images/Krisna.jpg" width="400" height="400" alt="Krisna Bou">
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-name">Krisna Bou</span>
+          <span class="footer-role">Software Engineer</span>
+        </div>
+        <nav class="footer-nav">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-social">
+          <a class="footer-social-link" href="https://www.linkedin.com/in/krisna-bou/" aria-label="Krisna Bou on LinkedIn"><img src="images/linkedin.png" width="512" height="512" alt="Krisna Bou on LinkedIn"></a>
+          <a class="footer-social-link" href="https://github.com/Krisna-Bou" aria-label="Krisna Bou on GitHub"><img src="images/github.png" width="512" height="512" alt="Krisna Bou on GitHub"></a>
+          <a class="footer-social-link" href="mailto:krisna.bou@outlook.com" aria-label="Email"><img src="images/mail.png" width="512" height="512" alt="Email"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
