@@ -25,4 +25,4 @@ Software Engineering (Honours) graduate from **The University of Queensland**, b
 ## 📫 Let's Connect
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-krisnabou.com-1a1a2e?style=flat-square)](https://krisnabou.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-krisna--bou-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/krisna-bou/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-krisna--bou-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/krisnabou/)
